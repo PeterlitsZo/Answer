@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (TeX Live 2020/Debian)  (format=lualatex 2020.8.27)  17 DEC 2020 22:48
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020/Debian)  (format=lualatex 2020.8.27)  18 DEC 2020 21:23
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -73,7 +73,7 @@ Lua module: luaotfload-tounicode 2020-05-06 3.14 luaotfload submodule / tounicod
 e
 Inserting `luaotfload.rewrite_fontname' at position 6 in `luaotfload.patch_font'
 . L3 programming layer <2020-06-18> (./math.cls
-Document Class: math Peterlits' math cls file
+Document Class: math Peterlits math cls file
 (/usr/share/texlive/texmf-dist/tex/latex/ctex/ctexart.cls
 (/usr/share/texlive/texmf-dist/tex/latex/ctex/config/ctexbackend.cfg
 File: ctexbackend.cfg 2020/06/06 v2.5.3 Backend configuration file (CTEX)
@@ -955,34 +955,24 @@ File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 \lst@WFtoken=\toks42
 \lst@WF=\write4
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
-Package: enumitem 2019/06/20 v3.9 Customized lists
-\enitkv@toks@=\toks43
-\labelindent=\skip55
-\enit@outerparindent=\dimen283
-\enit@toks=\toks44
-\enit@inbox=\box64
-\enit@count@id=\count314
-\enitdp@description=\count315
-)
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
 (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count316
-\Gm@cntv=\count317
-\c@Gm@tempcnt=\count318
-\Gm@bindingoffset=\dimen284
-\Gm@wd@mp=\dimen285
-\Gm@odd@mp=\dimen286
-\Gm@even@mp=\dimen287
-\Gm@layoutwidth=\dimen288
-\Gm@layoutheight=\dimen289
-\Gm@layouthoffset=\dimen290
-\Gm@layoutvoffset=\dimen291
-\Gm@dimlist=\toks45
+\Gm@cnth=\count314
+\Gm@cntv=\count315
+\c@Gm@tempcnt=\count316
+\Gm@bindingoffset=\dimen283
+\Gm@wd@mp=\dimen284
+\Gm@odd@mp=\dimen285
+\Gm@even@mp=\dimen286
+\Gm@layoutwidth=\dimen287
+\Gm@layoutheight=\dimen288
+\Gm@layouthoffset=\dimen289
+\Gm@layoutvoffset=\dimen290
+\Gm@dimlist=\toks43
 )
 (/usr/share/texlive/texmf-dist/tex/latex/inconsolata/inconsolata.fontspec)(load 
 cache: extra_inconsolatazi4-regular.luc)
@@ -1031,11 +1021,11 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
 Package: fancyvrb 2020/05/03 v3.6 verbatim text (tvz,hv)
-\FV@CodeLineNo=\count319
+\FV@CodeLineNo=\count317
 \FV@InFile=\read3
-\FV@TabBox=\box65
-\c@FancyVerbLine=\count320
-\FV@StepNumber=\count321
+\FV@TabBox=\box64
+\c@FancyVerbLine=\count318
+\FV@StepNumber=\count319
 \FV@OutFile=\write5
 )
 (/usr/share/texlive/texmf-dist/tex/latex/csvsimple/csvsimple.sty
@@ -1046,9 +1036,9 @@ Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
 Package shellesc Info: Restricted shell escape enabled on input line 77.
 )
 \csv@file=\read4
-\c@csvinputline=\count322
-\c@csvrow=\count323
-\c@csvcol=\count324
+\c@csvinputline=\count320
+\c@csvrow=\count321
+\c@csvcol=\count322
 \csv@out=\write6
 )
 (/usr/share/texlive/texmf-dist/tex/generic/gobble/gobble.sty
@@ -1064,20 +1054,20 @@ Package: markdown 2020/03/20 v2.8.2 markdown renderer
 
 (/usr/share/texlive/texmf-dist/tex/latex/paralist/paralist.sty
 Package: paralist 2017/01/22 v2.7 Extended list environments
-\pltopsep=\skip56
-\plpartopsep=\skip57
-\plitemsep=\skip58
-\plparsep=\skip59
-\pl@lab=\toks46
+\pltopsep=\skip55
+\plpartopsep=\skip56
+\plitemsep=\skip57
+\plparsep=\skip58
+\pl@lab=\toks44
 )
-\markdownLaTeXCitationsCounter=\count325
-\markdownLaTeXRowCounter=\count326
-\markdownLaTeXRowTotal=\count327
-\markdownLaTeXColumnCounter=\count328
-\markdownLaTeXColumnTotal=\count329
-\markdownLaTeXTable=\toks47
-\markdownLaTeXTableAlignment=\toks48
-\markdownLaTeXTableEnd=\toks49
+\markdownLaTeXCitationsCounter=\count323
+\markdownLaTeXRowCounter=\count324
+\markdownLaTeXRowTotal=\count325
+\markdownLaTeXColumnCounter=\count326
+\markdownLaTeXColumnTotal=\count327
+\markdownLaTeXTable=\toks45
+\markdownLaTeXTableAlignment=\toks46
+\markdownLaTeXTableEnd=\toks47
 )
 LaTeX Font Info:    Redeclaring symbol font `CJKmath' on input line 7.
 LaTeX Font Info:    Overwriting symbol font `CJKmath' in version `normal'
@@ -1172,17 +1162,17 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
  ABD: EveryShipout initializing macros
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count330
-\scratchdimen=\dimen292
-\scratchbox=\box66
-\nofMPsegments=\count331
-\nofMParguments=\count332
-\everyMPshowfont=\toks50
-\MPscratchCnt=\count333
-\MPscratchDim=\dimen293
-\MPnumerator=\count334
-\makeMPintoPDFobject=\count335
-\everyMPtoPDFconversion=\toks51
+\scratchcounter=\count328
+\scratchdimen=\dimen291
+\scratchbox=\box65
+\nofMPsegments=\count329
+\nofMParguments=\count330
+\everyMPshowfont=\toks48
+\MPscratchCnt=\count331
+\MPscratchDim=\dimen292
+\MPnumerator=\count332
+\makeMPintoPDFobject=\count333
+\everyMPtoPDFconversion=\toks49
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
@@ -1192,7 +1182,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 
 ))
-\c@lstlisting=\count336
+\c@lstlisting=\count334
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -1234,30 +1224,38 @@ LaTeX Font Info:    Font shape `LTJY3/SourceHanSerifCN-Regular(0)/bx/n' in size
 <15.05624> not available
 (Font)              Font shape `LTJY3/SourceHanSerifCN-Regular(0)/b/n' tried ins
 tead on input line 9.
-(./main.toc)
-\tf@toc=\write8
-
-\openout8 = main.toc
- (./docs/1578.tex
-LaTeX Font Info:    Font shape `LTJY3/SourceHanSerifCN-Regular(0)/bx/n' in size 
-<12.045> not available
-(Font)              Font shape `LTJY3/SourceHanSerifCN-Regular(0)/b/n' tried ins
-tead on input line 1.
+(./main.toc
 LaTeX Font Info:    Font shape `LTJY3/SourceHanSerifCN-Regular(0)/bx/n' in size 
 <10.53937> not available
 (Font)              Font shape `LTJY3/SourceHanSerifCN-Regular(0)/b/n' tried ins
-tead on input line 4.
+tead on input line 1.
 (load cache: extra_lmroman7-regular.luc)(load cache: extra_lmroman5-regular.luc)
 
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <10.53937> not available
-(Font)              size <10.95> substituted on input line 21.
+(Font)              size <10.95> substituted on input line 2.
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}](load cache: extra_fandolfan
-g-regular.luc)
-luaotfload | aux : font no 93 (nil) does not define feature smcp for script latn
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}](load cache: extra_lmromansl
+ant10-regular.luc)
+
+LaTeX Font Warning: Font shape `LTJY3/SourceHanSerifCN-Regular(0)/m/sl' undefine
+d
+(Font)              using `LTJY3/SourceHanSerifCN-Regular(0)/m/n' instead on inp
+ut line 72.
+
+[2])
+\tf@toc=\write8
+
+\openout8 = main.toc
+ [3] (./docs/1578.tex
+LaTeX Font Info:    Font shape `LTJY3/SourceHanSerifCN-Regular(0)/bx/n' in size 
+<12.045> not available
+(Font)              Font shape `LTJY3/SourceHanSerifCN-Regular(0)/b/n' tried ins
+tead on input line 1.
+(load cache: extra_fandolfang-regular.luc)
+luaotfload | aux : font no 94 (nil) does not define feature smcp for script latn
  with language dflt
 
 Package fontspec Info: Font family 'FandolFang-Regular(0)' created for font
@@ -1273,13 +1271,13 @@ UID=3].
 ge=dflt;jfm=quanjiao;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
-luaotfload | aux : font no 95 (nil) does not define feature vert for script latn
+luaotfload | aux : font no 96 (nil) does not define feature vert for script latn
  with language dflt
-luaotfload | aux : font no 95 (nil) does not define feature vrt2 for script latn
+luaotfload | aux : font no 96 (nil) does not define feature vrt2 for script latn
  with language dflt
-luaotfload | aux : font no 97 (nil) does not define feature vert for script latn
+luaotfload | aux : font no 98 (nil) does not define feature vert for script latn
  with language dflt
-luaotfload | aux : font no 97 (nil) does not define feature vrt2 for script latn
+luaotfload | aux : font no 98 (nil) does not define feature vrt2 for script latn
  with language dflt
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' at position 1 in `process_input_buffer'.
@@ -1288,25 +1286,18 @@ Removing  `ltj.listings_unicode' from `process_input_buffer'.
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' at position 1 in `process_input_buffer'.
 Inserting `ltj.process_input_buffer' at position 2 in `process_input_buffer'.
-Removing  `ltj.listings_unicode' from `process_input_buffer'.) (./docs/1579.tex
-
+Removing  `ltj.listings_unicode' from `process_input_buffer'. [4]) (./docs/1579
+.tex
 Overfull \hbox (14.59758pt too wide) in paragraph at lines 45--49
-[]|\LTJY3/SourceHanSerifCN-Regular(0)/m/n/10.53937 输 |出 $\OML/cmm/m/it/10.5
-3937 t$ |\LTJY3/SourceHanSerifCN-Regular(0)/m/n/10.53937 个 |结 |果 [] |每 
-|个 |结 |果 |对 |应 |于 |输 |入 |的 |每 |一 |个 |测 |试 |样 |
-例 [] |对 |于 |每 |一 |个 |结 |果 |包 |含 |了 $\OML/cmm/m/it/10.5393
-7 L[]$ |\LTJY3/SourceHanSerifCN-Regular(0)/m/n/10.53937 个 |结 |果 $\OML/cmm
-/m/it/10.53937 b[];  b[];  [] ;  b[]$
+[]|\LTJY3/SourceHanSerifCN-Regular(0)/m/sl/10.53937 输 |出 $\OML/cmm/m/it/10.
+53937 t$ |\LTJY3/SourceHanSerifCN-Regular(0)/m/sl/10.53937 个 |结 |果 [] |
+每 |个 |结 |果 |对 |应 |于 |输 |入 |的 |每 |一 |个 |测 |试 |样 
+|例 [] |对 |于 |每 |一 |个 |结 |果 |包 |含 |了 $\OML/cmm/m/it/10.539
+37 L[]$ |\LTJY3/SourceHanSerifCN-Regular(0)/m/sl/10.53937 个 |结 |果 $\OML/c
+mm/m/it/10.53937 b[];  b[];  [] ;  b[]$
  []
 
-(load cache: extra_lmromanslant10-regular.luc)
-
-LaTeX Font Warning: Font shape `LTJY3/SourceHanSerifCN-Regular(0)/m/sl' undefine
-d
-(Font)              using `LTJY3/SourceHanSerifCN-Regular(0)/m/n' instead on inp
-ut line 51.
-
-[2]
+[5]
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' at position 1 in `process_input_buffer'.
 Inserting `ltj.process_input_buffer' at position 2 in `process_input_buffer'.
@@ -1322,13 +1313,12 @@ d
 (Font)              using `LTJY3/SourceHanSerifCN-Regular(0)/m/n' instead on inp
 ut line 91.
 
-[3]
 
 Package amsmath Warning: Foreign command \over;
 (amsmath)                \frac or \genfrac should be used instead
 (amsmath)                 on input line 115.
 
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+[6] (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
@@ -1345,9 +1335,9 @@ LaTeX Font Warning: Font shape `LTJY3/FandolFang-Regular(0)/b/n' undefined
 (Font)              using `LTJY3/FandolFang-Regular(0)/m/n' instead on input lin
 e 125.
 
-luaotfload | aux : font no 97 (nil) does not define feature vert for script latn
+luaotfload | aux : font no 98 (nil) does not define feature vert for script latn
  with language dflt
-luaotfload | aux : font no 97 (nil) does not define feature vrt2 for script latn
+luaotfload | aux : font no 98 (nil) does not define feature vrt2 for script latn
  with language dflt
 Removing  `ltj.listings_unicode' from `process_input_buffer'. (/usr/share/texli
 ve/texmf-dist/tex/latex/listings/lstlang1.sty
@@ -1356,7 +1346,7 @@ File: lstlang1.sty 2020/03/24 1.8d listings language file
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' at position 1 in `process_input_buffer'.
 Inserting `ltj.process_input_buffer' at position 2 in `process_input_buffer'.
-Removing  `ltj.listings_unicode' from `process_input_buffer'. [4]
+Removing  `ltj.listings_unicode' from `process_input_buffer'. [7]
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' at position 1 in `process_input_buffer'.
 Inserting `ltj.process_input_buffer' at position 2 in `process_input_buffer'.
@@ -1370,7 +1360,7 @@ Overfull \hbox (66.52148pt too wide) in paragraph at lines 229--230
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' at position 1 in `process_input_buffer'.
 Inserting `ltj.process_input_buffer' at position 2 in `process_input_buffer'. [
-5]
+8]
 Removing  `ltj.listings_unicode' from `process_input_buffer'.
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' at position 1 in `process_input_buffer'.
@@ -1379,41 +1369,13 @@ Removing  `ltj.listings_unicode' from `process_input_buffer'.
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' at position 1 in `process_input_buffer'.
 Inserting `ltj.process_input_buffer' at position 2 in `process_input_buffer'. [
-6]
+9]
 Removing  `ltj.listings_unicode' from `process_input_buffer'.
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' at position 1 in `process_input_buffer'.
 Inserting `ltj.process_input_buffer' at position 2 in `process_input_buffer'. [
-7]
+10]
 Removing  `ltj.listings_unicode' from `process_input_buffer'.) (./docs/1580.tex
- [8]
-Removing  `ltj.process_input_buffer' from `process_input_buffer'.
-Inserting `ltj.listings_unicode' at position 1 in `process_input_buffer'.
-Inserting `ltj.process_input_buffer' at position 2 in `process_input_buffer'.
-Removing  `ltj.listings_unicode' from `process_input_buffer'.
-Removing  `ltj.process_input_buffer' from `process_input_buffer'.
-Inserting `ltj.listings_unicode' at position 1 in `process_input_buffer'.
-Inserting `ltj.process_input_buffer' at position 2 in `process_input_buffer'.
-Removing  `ltj.listings_unicode' from `process_input_buffer'.) (./docs/1581.tex
- [9]
-Removing  `ltj.process_input_buffer' from `process_input_buffer'.
-Inserting `ltj.listings_unicode' at position 1 in `process_input_buffer'.
-Inserting `ltj.process_input_buffer' at position 2 in `process_input_buffer'.
-Removing  `ltj.listings_unicode' from `process_input_buffer'.
-Removing  `ltj.process_input_buffer' from `process_input_buffer'.
-Inserting `ltj.listings_unicode' at position 1 in `process_input_buffer'.
-Inserting `ltj.process_input_buffer' at position 2 in `process_input_buffer'.
-Removing  `ltj.listings_unicode' from `process_input_buffer'.) (./docs/1582.tex
-
-[10]
-Removing  `ltj.process_input_buffer' from `process_input_buffer'.
-Inserting `ltj.listings_unicode' at position 1 in `process_input_buffer'.
-Inserting `ltj.process_input_buffer' at position 2 in `process_input_buffer'.
-Removing  `ltj.listings_unicode' from `process_input_buffer'.
-Removing  `ltj.process_input_buffer' from `process_input_buffer'.
-Inserting `ltj.listings_unicode' at position 1 in `process_input_buffer'.
-Inserting `ltj.process_input_buffer' at position 2 in `process_input_buffer'.
-Removing  `ltj.listings_unicode' from `process_input_buffer'.) (./docs/1583.tex
  [11]
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' at position 1 in `process_input_buffer'.
@@ -1422,8 +1384,35 @@ Removing  `ltj.listings_unicode' from `process_input_buffer'.
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' at position 1 in `process_input_buffer'.
 Inserting `ltj.process_input_buffer' at position 2 in `process_input_buffer'.
-Removing  `ltj.listings_unicode' from `process_input_buffer'.) (./docs/1584.tex
- [12]
+Removing  `ltj.listings_unicode' from `process_input_buffer'.
+Overfull \hbox (40.14069pt too wide) in paragraph at lines 81--82
+|\LTJY3/SourceHanSerifCN-Regular(0)/m/it/10.53937 到 |所 |有 |情 |况 [] |
+例 [] $\OML/cmm/m/it/10.53937 abcbc \OMS/cmsy/m/n/10.53937 ! \OML/cmm/m/it/10.
+53937 abcbcabcbc$ [] |\LTJY3/SourceHanSerifCN-Regular(0)/m/it/10.53937 所 |
+有 |的 |情 |况 |为 $\OT1/cmr/m/n/10.53937 [\OML/cmm/m/it/10.53937 abcbc\OT
+1/cmr/m/n/10.53937 ]\OML/cmm/m/it/10.53937 abcbc; a\OT1/cmr/m/n/10.53937 [\OML/
+cmm/m/it/10.53937 bcbca\OT1/cmr/m/n/10.53937 ]\OML/cmm/m/it/10.53937 bcbc; ab\O
+T1/cmr/m/n/10.53937 [\OML/cmm/m/it/10.53937 cbcab\OT1/cmr/m/n/10.53937 ]\OML/cm
+m/m/it/10.53937 cbc; abc\OT1/cmr/m/n/10.53937 [\OML/cmm/m/it/10.53937 bcabc\OT1
+/cmr/m/n/10.53937 ]\OML/cmm/m/it/10.53937 bc; abcb\OT1/cmr/m/n/10.53937 [\OML/c
+mm/m/it/10.53937 cabcb\OT1/cmr/m/n/10.53937 ]\OML/cmm/m/it/10.53937 c$ 
+ []
+
+
+Overfull \hbox (56.61891pt too wide) in paragraph at lines 85--86
+[]|\LTJY3/SourceHanSerifCN-Regular(0)/m/it/10.53937 记 $\OML/cmm/m/it/10.53937
+ f\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 s\OT1/cmr/m/n/10.53937 )$ |\LTJ
+Y3/SourceHanSerifCN-Regular(0)/m/it/10.53937 为 |使 |字 |符 |串 $\OML/cmm/
+m/it/10.53937 s$ |\LTJY3/SourceHanSerifCN-Regular(0)/m/it/10.53937 变 |为 |
+合 [] |括 |号 |序 |列 |的 |最 |小 |删 |除 |次 |数 [] |由 |上 |
+面 |的 |讨 |论 |可 |知 |答 |案 |为 [] $\OML/cmm/m/it/10.53937 i \OMS/c
+msy/m/n/10.53937  \OML/cmm/m/it/10.53937 b \OT1/cmr/m/n/10.53937 + \OML/cmm/m/
+it/10.53937 f\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 s[]\OT1/cmr/m/n/10.5
+3937 )\OML/cmm/m/it/10.53937 ;  for i from \OT1/cmr/m/n/10.53937 0 \OML/cmm/m/i
+t/10.53937 to n \OMS/cmsy/m/n/10.53937 ^^@
+ []
+
+[12]) (./docs/1581.tex [13]
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' at position 1 in `process_input_buffer'.
 Inserting `ltj.process_input_buffer' at position 2 in `process_input_buffer'.
@@ -1431,17 +1420,97 @@ Removing  `ltj.listings_unicode' from `process_input_buffer'.
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' at position 1 in `process_input_buffer'.
 Inserting `ltj.process_input_buffer' at position 2 in `process_input_buffer'.
-Removing  `ltj.listings_unicode' from `process_input_buffer'.) (./docs/1585.tex
- [13]
+Removing  `ltj.listings_unicode' from `process_input_buffer'.
+Overfull \hbox (33.47363pt too wide) in paragraph at lines 94--95
+[][] |\LTJY3/SourceHanSerifCN-Regular(0)/m/it/10.53937 体 |的 |讲 |解 |和 
+|证 |明 |可 [] |百 |度 |学 |习 [] |这 |里 |放 |一 |个 \TU/lmr/m/n/1
+0.53937 [ |\LTJY3/SourceHanSerifCN-Regular(0)/m/it/10.53937 链 |接 \TU/lmr/m/
+n/10.53937 ](https://blog.csdn.net/Ze-olim/ar-ti-cle/de-tails/86770827) 
+ []
+
+[14
+Missing character: There is no ≤ (U+2264) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ≤ (U+2264) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ≤ (U+2264) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ≤ (U+2264) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ≤ (U+2264) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ≤ (U+2264) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ≤ (U+2264) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ∑ (U+2211) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ∑ (U+2211) in font [lmroman10-regular]:+tlig;!
+]) (./docs/1582.tex
+Removing  `ltj.process_input_buffer' from `process_input_buffer'.
+Inserting `ltj.listings_unicode' at position 1 in `process_input_buffer'.
+Inserting `ltj.process_input_buffer' at position 2 in `process_input_buffer'. [
+15
+Missing character: There is no ≤ (U+2264) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ≤ (U+2264) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ≤ (U+2264) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ≤ (U+2264) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ≤ (U+2264) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ≤ (U+2264) in font [lmroman10-regular]:+tlig;!
+]
+Removing  `ltj.listings_unicode' from `process_input_buffer'.
+Removing  `ltj.process_input_buffer' from `process_input_buffer'.
+Inserting `ltj.listings_unicode' at position 1 in `process_input_buffer'.
+Inserting `ltj.process_input_buffer' at position 2 in `process_input_buffer'.
+Removing  `ltj.listings_unicode' from `process_input_buffer'.) (./docs/1583.tex
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' at position 1 in `process_input_buffer'.
 Inserting `ltj.process_input_buffer' at position 2 in `process_input_buffer'.
 Removing  `ltj.listings_unicode' from `process_input_buffer'.
+Removing  `ltj.process_input_buffer' from `process_input_buffer'.
+Inserting `ltj.listings_unicode' at position 1 in `process_input_buffer'.
+Inserting `ltj.process_input_buffer' at position 2 in `process_input_buffer'.
+Removing  `ltj.listings_unicode' from `process_input_buffer'. [16
+Missing character: There is no ≤ (U+2264) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ≤ (U+2264) in font [lmroman10-regular]:+tlig;!
+]) (./docs/1584.tex
+Removing  `ltj.process_input_buffer' from `process_input_buffer'.
+Inserting `ltj.listings_unicode' at position 1 in `process_input_buffer'.
+Inserting `ltj.process_input_buffer' at position 2 in `process_input_buffer'.
+Removing  `ltj.listings_unicode' from `process_input_buffer'. [17
+Missing character: There is no ≤ (U+2264) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ≤ (U+2264) in font [lmroman10-regular]:+tlig;!
+]
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' at position 1 in `process_input_buffer'.
 Inserting `ltj.process_input_buffer' at position 2 in `process_input_buffer'.
 Removing  `ltj.listings_unicode' from `process_input_buffer'.)
-(./docs/1586.tex [14]
+(./docs/1585.tex [18
+Missing character: There is no ♂ (U+2642) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ≤ (U+2264) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ≤ (U+2264) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ≤ (U+2264) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ≤ (U+2264) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ≤ (U+2264) in font [lmroman10-regular]:+tlig;!
+]
+Removing  `ltj.process_input_buffer' from `process_input_buffer'.
+Inserting `ltj.listings_unicode' at position 1 in `process_input_buffer'.
+Inserting `ltj.process_input_buffer' at position 2 in `process_input_buffer'.
+Removing  `ltj.listings_unicode' from `process_input_buffer'.
+Removing  `ltj.process_input_buffer' from `process_input_buffer'.
+Inserting `ltj.listings_unicode' at position 1 in `process_input_buffer'.
+Inserting `ltj.process_input_buffer' at position 2 in `process_input_buffer'.
+Removing  `ltj.listings_unicode' from `process_input_buffer'.) (./docs/1586.tex
+ [19
+Missing character: There is no 𝑥 (U+1D465) in font [lmroman10-regular]:+tlig;
+!
+Missing character: There is no 𝑦 (U+1D466) in font [lmroman10-regular]:+tlig;
+!
+Missing character: There is no 𝑥 (U+1D465) in font [lmroman10-regular]:+tlig;
+!
+Missing character: There is no 𝑦 (U+1D466) in font [lmroman10-regular]:+tlig;
+!
+Missing character: There is no 𝑥 (U+1D465) in font [lmroman10-regular]:+tlig;
+!
+Missing character: There is no 𝑥 (U+1D465) in font [lmroman10-regular]:+tlig;
+!
+Missing character: There is no 𝑦 (U+1D466) in font [lmroman10-regular]:+tlig;
+!
+Missing character: There is no 𝑦 (U+1D466) in font [lmroman10-regular]:+tlig;
+!
+]
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' at position 1 in `process_input_buffer'.
 Inserting `ltj.process_input_buffer' at position 2 in `process_input_buffer'.
@@ -1450,7 +1519,12 @@ Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' at position 1 in `process_input_buffer'.
 Inserting `ltj.process_input_buffer' at position 2 in `process_input_buffer'.
 Removing  `ltj.listings_unicode' from `process_input_buffer'.) (./docs/1587.tex
- [15]
+ [20
+Missing character: There is no ≤ (U+2264) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ≤ (U+2264) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ≤ (U+2264) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ≤ (U+2264) in font [lmroman10-regular]:+tlig;!
+]
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' at position 1 in `process_input_buffer'.
 Inserting `ltj.process_input_buffer' at position 2 in `process_input_buffer'.
@@ -1458,17 +1532,16 @@ Removing  `ltj.listings_unicode' from `process_input_buffer'.
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' at position 1 in `process_input_buffer'.
 Inserting `ltj.process_input_buffer' at position 2 in `process_input_buffer'.
-Removing  `ltj.listings_unicode' from `process_input_buffer'.) (./docs/1588.tex
- [16]
-Removing  `ltj.process_input_buffer' from `process_input_buffer'.
-Inserting `ltj.listings_unicode' at position 1 in `process_input_buffer'.
-Inserting `ltj.process_input_buffer' at position 2 in `process_input_buffer'.
-Removing  `ltj.listings_unicode' from `process_input_buffer'.
+Removing  `ltj.listings_unicode' from `process_input_buffer'. [21]
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' at position 1 in `process_input_buffer'.
 Inserting `ltj.process_input_buffer' at position 2 in `process_input_buffer'.
 Removing  `ltj.listings_unicode' from `process_input_buffer'.)
-(./docs/1589.tex [17]
+(./docs/1588.tex [22
+Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:+tlig;!
+]
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' at position 1 in `process_input_buffer'.
 Inserting `ltj.process_input_buffer' at position 2 in `process_input_buffer'.
@@ -1476,7 +1549,29 @@ Removing  `ltj.listings_unicode' from `process_input_buffer'.
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' at position 1 in `process_input_buffer'.
 Inserting `ltj.process_input_buffer' at position 2 in `process_input_buffer'.
-Removing  `ltj.listings_unicode' from `process_input_buffer'.) [18] (./main.aux
+Removing  `ltj.listings_unicode' from `process_input_buffer'.) (./docs/1589.tex
+ [23
+Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ≤ (U+2264) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ≤ (U+2264) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ∑ (U+2211) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ≤ (U+2264) in font [lmroman10-regular]:+tlig;!
+]
+Removing  `ltj.process_input_buffer' from `process_input_buffer'.
+Inserting `ltj.listings_unicode' at position 1 in `process_input_buffer'.
+Inserting `ltj.process_input_buffer' at position 2 in `process_input_buffer'.
+Removing  `ltj.listings_unicode' from `process_input_buffer'.
+Removing  `ltj.process_input_buffer' from `process_input_buffer'.
+Inserting `ltj.listings_unicode' at position 1 in `process_input_buffer'.
+Inserting `ltj.process_input_buffer' at position 2 in `process_input_buffer'.
+Removing  `ltj.listings_unicode' from `process_input_buffer'.) [24] (./main.aux
 )
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1488,25 +1583,25 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 )
 
 Here is how much of LuaTeX's memory you used:
- 23636 strings out of 480878
- 1457311,1144653 words of node,token memory allocated
- 16189 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 2 glue, 14 kern, 12 penalty, 1 glyph, 1571 attribut
-e, 2457 glue_spec, 106 attribute_list, 2 write, 63 user_defined nodes
-   avail lists: 1:14,2:297720,3:289,4:29799,5:23940,6:146,7:17115,8:22,9:45573,1
-0:36,11:1428,12:1
- 40242 multiletter control sequences out of 65536+600000
+ 23335 strings out of 480878
+ 1457292,1144653 words of node,token memory allocated
+ 20766 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 14 kern, 5 penalty, 1 glyph, 1663 attribute
+, 3325 glue_spec, 115 attribute_list, 2 write, 77 user_defined nodes
+   avail lists: 1:17,2:293638,3:440,4:29112,5:22826,6:146,7:17208,8:67,9:44504,1
+0:36,11:1389,12:1
+ 39948 multiletter control sequences out of 65536+600000
  102 fonts using 121248643 bytes
- 69i,6n,110p,1045b,835s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 69i,8n,110p,1045b,835s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texlive/texmf-dist/fonts/opentype/public/fandol/FandolFang-Regular.o
 tf></usr/share/texmf/fonts/opentype/public/lm/lmroman5-regular.otf></usr/share/t
 exlive/texmf-dist/fonts/opentype/public/inconsolata/Inconsolatazi4-Bold.otf></us
 r/share/texmf/fonts/opentype/public/lm/lmroman10-italic.otf></usr/share/texlive/
 texmf-dist/fonts/opentype/public/inconsolata/Inconsolatazi4-Regular.otf></usr/sh
-are/texmf/fonts/opentype/public/lm/lmromanslant10-regular.otf></usr/share/texmf/
-fonts/opentype/public/lm/lmroman7-regular.otf></usr/share/texmf/fonts/opentype/p
-ublic/lm/lmroman10-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroma
-n10-bold.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman12-bold.otf></usr
+are/texmf/fonts/opentype/public/lm/lmroman7-regular.otf></usr/share/texmf/fonts/
+opentype/public/lm/lmroman12-bold.otf></usr/share/texmf/fonts/opentype/public/lm
+/lmromanslant10-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman10
+-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman10-bold.otf></usr
 /share/fonts/chinese/SourceHanSerifCN-Bold.otf
 warning  (file /usr/share/fonts/chinese/SourceHanSerifCN-Bold.otf) (cff): charse
 t data possibly broken (too many glyphs)
@@ -1515,18 +1610,19 @@ nts/chinese/SourceHanSerifCN-Regular.otf
 warning  (file /usr/share/fonts/chinese/SourceHanSerifCN-Regular.otf) (cff): cha
 rset data possibly broken (too many glyphs)
 ></usr/share/texmf/fonts/opentype/public/lm/lmroman17-regular.otf></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-msy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pf
-b>
-Output written on main.pdf (18 pages, 303751 bytes).
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on main.pdf (24 pages, 414243 bytes).
 
-PDF statistics: 195 PDF objects out of 1000 (max. 8388607)
- 123 compressed objects within 2 object streams
+PDF statistics: 222 PDF objects out of 1000 (max. 8388607)
+ 142 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)
 
