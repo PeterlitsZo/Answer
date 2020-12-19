@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (TeX Live 2020/Debian)  (format=lualatex 2020.8.27)  18 DEC 2020 21:23
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020/Debian)  (format=lualatex 2020.8.27)  19 DEC 2020 22:51
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1566,12 +1566,34 @@ Missing character: There is no ≤ (U+2264) in font [lmroman10-regular]:+tlig;!
 ]
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' at position 1 in `process_input_buffer'.
-Inserting `ltj.process_input_buffer' at position 2 in `process_input_buffer'.
+Inserting `ltj.process_input_buffer' at position 2 in `process_input_buffer'. [
+24
+Missing character: There is no ≤ (U+2264) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ≤ (U+2264) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ≤ (U+2264) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ≤ (U+2264) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ≤ (U+2264) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ≤ (U+2264) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ≤ (U+2264) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ≤ (U+2264) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ≤ (U+2264) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ≤ (U+2264) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ≤ (U+2264) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ≤ (U+2264) in font [lmroman10-regular]:+tlig;!
+]
 Removing  `ltj.listings_unicode' from `process_input_buffer'.
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' at position 1 in `process_input_buffer'.
 Inserting `ltj.process_input_buffer' at position 2 in `process_input_buffer'.
-Removing  `ltj.listings_unicode' from `process_input_buffer'.) [24] (./main.aux
+Removing  `ltj.listings_unicode' from `process_input_buffer'.
+
+LaTeX Warning: Reference `1589:ckdm' on page 25 undefined on input line 90.
+
+Removing  `ltj.process_input_buffer' from `process_input_buffer'.
+Inserting `ltj.listings_unicode' at position 1 in `process_input_buffer'.
+Inserting `ltj.process_input_buffer' at position 2 in `process_input_buffer'. [
+25]
+Removing  `ltj.listings_unicode' from `process_input_buffer'.) [26] (./main.aux
 )
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1580,17 +1602,23 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 )
 
 Here is how much of LuaTeX's memory you used:
- 23335 strings out of 480878
+ 23348 strings out of 480878
  1457292,1144653 words of node,token memory allocated
- 20766 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 2 glue, 14 kern, 5 penalty, 1 glyph, 1663 attribute
-, 3325 glue_spec, 115 attribute_list, 2 write, 77 user_defined nodes
-   avail lists: 1:17,2:293638,3:440,4:29112,5:22826,6:146,7:17208,8:67,9:44504,1
-0:36,11:1389,12:1
- 39948 multiletter control sequences out of 65536+600000
+ 22167 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 14 kern, 5 penalty, 1 glyph, 1702 attribute
+, 3586 glue_spec, 118 attribute_list, 2 write, 80 user_defined nodes
+   avail lists: 1:17,2:293596,3:440,4:29109,5:22564,6:146,7:17787,8:67,9:44504,1
+0:37,11:1389,12:1
+ 39961 multiletter control sequences out of 65536+600000
  102 fonts using 121248643 bytes
  69i,8n,110p,1045b,835s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texlive/texmf-dist/fonts/opentype/public/fandol/FandolFang-Regular.o
@@ -1619,10 +1647,10 @@ sfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on main.pdf (24 pages, 414243 bytes).
+Output written on main.pdf (26 pages, 429851 bytes).
 
-PDF statistics: 222 PDF objects out of 1000 (max. 8388607)
- 142 compressed objects within 2 object streams
+PDF statistics: 228 PDF objects out of 1000 (max. 8388607)
+ 146 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)
 

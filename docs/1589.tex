@@ -80,5 +80,62 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{题解}
+（网络流好难，但是这个题倒是很简单）。
 
-% ...
+与其说这个题目是一个网络流题，不如说这是一个阅读理解题。给定一个有向图和有向图生
+成的最大流路径，我们需要求它的剩余网络，本质上就是一个减法题：前者减去后者即为题
+目的解。
+
+\subsubsection{参考代码的解释}
+解释 \ref{1589:ckdm} 节的参考代码，我们首先读入一个图到序列 $A$ 中，并生成图 $G$
+（使用邻接矩阵表示）；之后 $t$ 次，每一次读入一个求解最大流过程中的路径，并减去
+$G$ 图中对应边的流量（同时增加对应边的反向边的流量，从而维持两者和不变）；再使用
+$A$ 的顺序，输出相减后的结果。
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{参考代码}
+\label{1589:ckdm}
+\begin{lstlisting}[language=C++]
+#include <bits/stdc++.h>
+
+using namespace std;
+using ll = long long;
+
+#define F(x) (#x) << ": " << (x) << ", "
+
+struct {
+  ll u, v, c;
+} A[20010];
+ll B[210];
+ll G[210][210];
+
+int main() {
+  ll n, m;
+  memset(G, 0, sizeof(G));
+  scanf("%lld %lld", &n, &m);
+  for (ll i = 0; i < m; i++) {
+    scanf("%lld %lld %lld", &A[i].u, &A[i].v, &A[i].c);
+    G[A[i].u][A[i].v] += A[i].c;
+  }
+
+  ll t;
+  for (scanf("%lld", &t); t--;) {
+    ll a, b;
+    scanf("%lld %lld", &a, &b);
+    for (ll i = 0; i < b; i++) {
+      scanf("%lld", &B[i]);
+    }
+    for (ll i = 1; i < b; i++) {
+      G[B[i - 1]][B[i]] -= a;
+      G[B[i]][B[i - 1]] += a;
+    }
+  }
+
+  for (ll i = 0; i < m; i++) {
+    printf("%lld %lld %lld
+", A[i].u, A[i].v, G[A[i].u][A[i].v]);
+  }
+
+  return 0;
+}
+\end{lstlisting}
